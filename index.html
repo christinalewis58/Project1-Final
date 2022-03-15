@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handspun</title>
+
+    <!-- link to sytle.css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- link to Javascript Library -->
+
+</head>
+
+<!-- Main Content -->
+<body>
+    <div class="container">
+        <header>
+            <figure class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Handspun logo" title="Handspun Logo" width="200"/></a>
+            </figure>
+            <nav id="navright">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger" />
+                <div id="hamitems" class="navanim">
+                    <a href="index.html">Home</a>
+                    <a href="ourstory.html">Our Story</a>
+                    <a href="ourproducts.html">Our Products</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="mbhome">
+            <div class="homestream">
+                <div class="streamlink">
+                    <img src="images/mobilehero.jpg" alt="Hero Characters Cropped" title="Four Characters Under Moon" width="995" />
+                    <img src="images/hero.jpg" alt="Season 4 Characters" title="Collage of Characters" width="1800" />
+                    <button onclick="window.location.href='https://www.justwatch.com/us/tv-show/stranger-things/season-4';">Stream Now</button>
+                </div>
+            </div>
+            <aside>
+                <figure class="mbsmpic">
+                    <img src="images/season4.jpg" alt="Season 4 Pic" title="Promo Poster for 4th Season" width="576" />
+                    <figcaption>Season 4 Promo Poster</figcaption>
+                </figure>
+            </aside>
+            <article>
+                <h1 id="mbhdg">Welcome to Handspun</h1>
+                <div class="mbmore">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam nam consectetur. Facilis suscipit optio totam officia velit quos amet aliquam alias consequuntur possimus voluptates dignissimos, odit at nemo voluptatibus!</p>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div class="ftrwrap">
+                <nav class="ftrnav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About the Cast</a></li>
+                        <li><a href="recap.html">Previously On</a></li>
+                        <li><a href="https://www.imdb.com/title/tt4574334/faq" target="_blank">FAQs</a></li>
+                    </ul>
+                </nav>
+                <p>&copy; 2022&nbsp;&nbsp; Website created by Andrea, Christina, Maira, & Marilyn</p>
+           </div>
+        </footer>
+
+        <script>
+            $(function(){
+    
+              $(".mbmore").elimore();
+    
+            });
+    
+            $(function(){
+    
+              $(".mbmore").elimore({
+                maxLength: 630
+              });
+    
+            });
+    
+            $(function(){
+    
+              $(".mbmore").elimore({
+                moreText:"Read More",
+                lessText:"Read Less"
+              });
+    
+            });
+        </script>
+        
+    </div>
+</body>
+</html>
